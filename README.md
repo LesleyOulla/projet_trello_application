@@ -1,16 +1,50 @@
-# trello_application
+Trell Tech
 
-A new Flutter project.
+Une application mobile Flutter connectée à l’API Trello, permettant la gestion complète de vos tableaux, cartes et espaces de travail. Ce projet a été développé en Dart avec le framework Flutter.
 
-## Getting Started
+Fonctionnalités
 
-This project is a starting point for a Flutter application.
+Cartes (Cards)
 
-A few resources to get you started if this is your first Flutter project:
+Lecture des cartes d’un tableau
+Création de nouvelles cartes
+Modification des cartes existantes
+Suppression de cartes
+Tableaux (Boards)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Liste des tableaux de l’utilisateur
+Création de tableaux avec titre et description
+Mise à jour des informations du tableau
+Suppression d’un tableau
+Affichage des tableaux récemment consultés
+Espaces de travail (Workspaces)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Affichage des informations de l’espace de travail associé à l’utilisateur
+
+Changement de la visibilité (public/privé)
+
+Affichés les tableaux récents
+
+Listes (list)
+
+-Afficher les 3 listes
+
+Technologies utilisées
+
+Flutter (SDK Dart)
+API Trello (via https://api.trello.com)
+Packages Flutter :
+http – pour les appels réseau
+go_router – pour la navigation
+flutter_dotenv – pour la gestion des clés API
+shared_preferences – pour stocker les tableaux récents
+Autres utilitaires (ex. : provider, etc.)
+⚙️ Configuration
+
+Cloner le projet
+
+git clone git@github.com:EpitechMscProPromo2027/T-DEV-600-PAR_13.git
+cd trello_application
+##Intsallations des dépendances flutter pub get
+
+##Démarrer le projet flutter run
